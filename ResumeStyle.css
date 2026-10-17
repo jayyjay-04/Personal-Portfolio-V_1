@@ -1,0 +1,54 @@
+@media print {
+    body {
+        width: 210mm;
+        height: 297mm;
+        margin: 20mm;
+    }
+}
+
+body {
+    margin: 15mm;
+}
+
+.AboutMeParts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.AboutMePart1 {
+    padding-right: 10px;
+}
+
+.AboutMePart2 {
+    padding-left: 10px;
+    width: 600px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.SkillParts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SkillPart1 {
+    padding-right: 10px;
+}
+
+.SkillPart2 {
+    padding-left: 10px;
+}
+
+.ExperienceSection {
+    width: 600px;
+}
+
+/* Styling for the footer */
+.Footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px;
+}

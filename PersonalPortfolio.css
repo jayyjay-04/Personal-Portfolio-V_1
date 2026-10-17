@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F1EFEC;
+}
+
+/* Navigation Bar */
+.NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.IntroTab {
+    margin-left: 15px;
+}
+
+.NavButtons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.NavBarButtons a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+a:hover {
+    transition: all 0.8s ease-in-out;
+    text-decoration: underline;
+}
+
+.PageIntro {
+    font-size: 15px;
+}
+
+/* Home Section */
+.Home_Section {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-bottom: 2px solid black;
+}
+
+.Home_Title {
+    width: 800px;
+    font-size: 60px;
+    padding-left: 5%;
+}
+
+/* About Section */
+.Intro_Section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    height: 400px;
+    gap: 50px;
+}
+
+.Intro_Texts {
+    width: 600px;
+    margin-left: 5%;
+}
+
+.Intro_0 {
+    margin-bottom: 130px;
+    font-weight: bold;
+}
+
+.Intro_1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Prof_1 {
+    margin-bottom: 200px;
+    font-weight: bold;
+}
+
+/* Profile Picture */
+.Profile_Pic {
+    display: flex;
+    height: 90%;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* Skills Section */
+.Skills_Section {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 400px;
+    gap: 50px;
+}
+
+.Skill_Texts {
+    width: 600px;
+    margin-left: 5%;
+}
+
+.Skill_0 {
+    font-weight: bold;
+    margin-bottom: 130px;
+}
+
+.Skill_1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Tools_Bar_Part_1,
+.Tools_Bar_Part_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Tools_Bar_0,
+.Tools_Bar_2 {
+    margin-right: 50px;
+}
+
+.Tools_Bar_Part_1 div,
+.Tools_Bar_Part_2 div {
+    width: 200px;
+}
+
+.Tools_Title {
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.Tools_1,
+.Tools_3,
+.Tools_5,
+.Tools_7 {
+    font-weight: bold;
+}
+
+/* Contact Section */
+.Contact_Section {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    height: 400px;
+    gap: 50px;
+}
+
+.Contact_Texts {
+    width: 600px;
+    margin-left: 5%;
+}
+
+.Contact_0 {
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.Contact_1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Contact_2,
+.Contact_3 {
+    font-size: 20px;
+}
+
+.Line_Bar {
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid black;
+}
+
+.Email_Me {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    justify-self: center;
+}
+
+/* Services Section */
+.Services_Section {
+    justify-items: center;
+    border-bottom: 2px solid black;
+    height: 400px;
+}
+
+.Services_0 {
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.Service_Item {
+    width: 300px;
+    margin: 0 5px;
+}
+
+.Service_List {
+    display: flex;
+}
+
+.Box {
+    width: 300px;
+    padding: 0 50px;
+    justify-content: center;
+}
+
+.Box_Img img {
+    width: 300px;
+    height: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.Box_Img img:hover {
+    width: 310px;
+}
+
+.Services_Img_Box {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-items: center;
+}
+
+.Services_Title {
+    justify-self: center;
+    font-weight: bold;
+}
+
+.Box_Title {
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.Box_Desc {
+    margin: 0;
+}
